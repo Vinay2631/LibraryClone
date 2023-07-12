@@ -1,7 +1,7 @@
 {
     "builds":[{
     
-    "src": "django_Mail/wsgi.py",
+    "src": "librarymanagement/wsgi.py",
     
     "use": "@vercel/python",
     
@@ -14,7 +14,7 @@
     
     "src":"/(.*)",
     
-    "dest": "django_Mail/wsgi.py"
+    "dest": "librarymanagement/wsgi.py"
     
     }
     ]
